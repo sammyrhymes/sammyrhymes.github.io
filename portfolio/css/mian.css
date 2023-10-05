@@ -105,9 +105,18 @@ span{
 .cv a:hover{
     color: coral;
 }
-
-@media (max-width < 600px){
-    .nav{
-        width: 100%
-    }
+.fill{
+    fill: #fff;
 }
+.dimensions{
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    nav{
+        width: 100%;
+    }
+  
+    /* Add more styles specific to smaller screens here */
+  }
