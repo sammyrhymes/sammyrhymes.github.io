@@ -120,3 +120,7 @@ span{
   
     /* Add more styles specific to smaller screens here */
   }
+iframe{
+    width: 100rem;
+    aspect-ratio: 16/9;
+}
